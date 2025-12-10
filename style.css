@@ -1,0 +1,198 @@
+body {
+    background: #f5f5f5;
+}
+
+/*Header Section*/
+.top-header {
+    text-align: center;
+    padding: 20px 0;
+}
+.logo{
+      
+    float: left;
+    margin: 15px auto;
+   
+} 
+.top-header h1 {
+    color: #8B0000;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.top-header h2 {
+    color: #092c31;
+    font-weight: 700;
+    margin-top: 5px;
+    font-size: 28px;
+}
+
+.top-header p {
+    margin: 0;
+    font-size: 14px;
+    color: #8B0000;
+}
+
+/* NAVBAR */
+.custom-navbar {
+    background-color: #004c6d;
+    padding: 6px 0;
+}
+
+.custom-navbar .nav-link,
+.custom-navbar .dropdown-toggle {
+    color: white;
+    padding: 12px 18px;
+    font-size: 14px;
+}
+
+.custom-navbar .nav-link:hover {
+    background: #006d92;
+}
+
+.dropdown-menu {
+    background: #004c6d;
+}
+
+.dropdown-item {
+    color: white;
+   
+}
+
+.dropdown-item:hover {
+    background: #006d92;
+}
+
+/* Carousel */
+.carousel-item img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+/*Cads Section*/
+.profile-card img {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-weight: 700;
+    color: #004a7c;
+}
+
+.designation {
+    font-weight: 600;
+    color: #a20000;
+    font-size: 14px;
+}
+
+.description {
+    text-align: justify;
+    font-size: 14px;
+    color: #444;
+}
+
+.more-link {
+    color: #0d6efd;
+    font-size: 14px;
+}
+
+/*Content Section*/
+.news-box {
+    border: 1px solid #ccc;
+    border-top: none;
+    background: white;
+    padding: 20px 25px;
+}
+
+.news-item {
+    margin-bottom: 14px;
+    font-size: 15px;
+}
+
+.news-item b {
+    color: #c20000;
+    /* Red date color */
+}
+
+.news-item a {
+    font-weight: 600;
+    text-decoration: none;
+    color: #0047b3;
+}
+
+.news-item a:hover {
+    text-decoration: underline;
+}
+
+.view-all {
+    font-weight: 600;
+    color: #0047b3;
+    float: right;
+    margin-top: 8px;
+}
+/*Footer Section*/
+.section-title {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.footer-box ul {
+    padding-left: 15px;
+}
+
+.footer-box ul li {
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.footer-box ul li::before {
+    content: "▸ ";
+    color: #d9534f;
+    font-weight: bold;
+}
+
+.footer-box {
+    padding: 20px;
+    background: white;
+    border: 1px solid #e5e5e5;
+    border-radius: 4px;
+    min-height: 350px;
+}
+
+.btn-footer {
+    width: 100%;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.footer-bottom {
+    background: #061d2c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+.custom-footer {
+    background-color: #003d66;
+    /* Dark Blue */
+    color: white;
+    padding: 10px 0;
+}
+
+.custom-footer a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.custom-footer a:hover {
+    text-decoration: underline;
+}
